@@ -1,0 +1,70 @@
+.search__input {
+    display: flex;
+    align-items: center;
+    border: 3px solid rgba(255, 191, 35, 255);
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+    background-color: var(--toggle);
+}
+
+.search__input > input {
+    flex: 1;
+    padding: 10px 20px;
+    font-size: medium;
+    border: none;
+    background-color: var(--toggle);
+    color: var(--text-decor-color);
+}
+.search__input > input:focus {
+    outline-width: 0px;
+}
+
+.search__input > .MuiSvgIcon-root {
+    color: var(--text-decor-color);
+}
+
+.search__buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.search__buttons button{ 
+    color : var(--text-decor-color);
+}
+
+.search__buttons button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid rgba(255, 191, 35, 255);
+    background-color: #fce883;
+    font: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+MuiButton-label {
+        fill: currentColor;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        font-size: 1.5rem;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        flex-shrink: 0;
+        user-select: none;
+        margin-right: 0.5em; 
+}
+
+.search__buttons button:hover {
+    background-color:#fedf00;
+    font : white;
+}
+.search__buttons .btnTxt {
+    display: none !important;
+}
